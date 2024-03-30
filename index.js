@@ -42,7 +42,7 @@ function createGameField() {
 
   correctAnswerNumber = getRandomNumber(4);
 
-  getAnswerButtonEL(correctAnswerNumber).innerHTML = randomQuestion.correct_answer + " #";
+  getAnswerButtonEL(correctAnswerNumber).innerHTML = randomQuestion.correct_answer;
 
   const incorrectAnswers = randomQuestion.incorrect_answers;
 
