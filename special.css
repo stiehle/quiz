@@ -1,0 +1,49 @@
+:root {
+  /* --primary-color: rgb(64, 104, 128); */
+  --primary-color: 64 104 128;
+  --color-0: rgb(var(--primary-color));
+  --color-1: rgb(var(--primary-color) / 0.2);
+  --color-2: rgb(var(--primary-color) / 0.5);
+
+  --text-color: #ddd;
+  --game-width: 90vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+  background-position: center;
+  gap: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #ddd;
+  width: fit-content;
+  border-bottom: 2px solid red;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+}
+
+.footer-button {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  width: 150px;
+  background-color: var(--color-2);
+  color: var(--text-color);
+}

@@ -1,0 +1,38 @@
+.statistic {
+  width: 80%;
+  height: 20rem;
+  background-color: red;
+}
+
+.center {
+  background-color: var(--color-2);
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-color);
+  font-weight: 800;
+  padding: 0.2rem 1rem;
+}
+
+h2 {
+  margin: 1rem;
+  color: var(--text-color);
+}
+
+.chart {
+  background-color: greenyellow;
+  width: 0;
+  height: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .statistic {
+    width: 400px;
+    height: 20rem;
+    background-color: red;
+  }
+}

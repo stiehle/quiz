@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="special.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="title-hero">
+        <h1 class="title">
+          Quiz !
+          <p class="subtitle">The Science Quiz</p>
+        </h1>
+      </div>
+      <div class="game-field">
+        <div class="game-info"><span class="small-text">Qounter: </span><span class="game-counter"></span></div>
+
+        <div class="game-field-question">
+          <p id="game-question"></p>
+        </div>
+
+        <div class="game-field-answer">
+          <button class="game-answer" onclick="showSolution(0)" data-answer="0"></button>
+          <button class="game-answer" onclick="showSolution(1)" data-answer="1"></button>
+          <button class="game-answer" onclick="showSolution(2)" data-answer="2"></button>
+          <button class="game-answer" onclick="showSolution(3)" data-answer="3"></button>
+        </div>
+        <div class="game-field-footer">
+          <button class="footer-button" onclick="showSolution()">Solution</button>
+          <button class="footer-button" onclick="getNextQuestion()">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
