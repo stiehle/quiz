@@ -33,6 +33,7 @@
   border-bottom: 2px solid red;
   text-transform: uppercase;
   margin-top: 2rem;
+  text-shadow: 2px 2px 80px rgba(113, 230, 109, 0.9), 2px 2px 70px rgba(222, 230, 109, 0.9);
 }
 
 .subtitle {
@@ -46,4 +47,10 @@
   width: 150px;
   background-color: var(--color-2);
   color: var(--text-color);
+  border: none;
+  box-shadow: 0px 0px 5px 5px rgba(100, 207, 255, 0.5);
+}
+
+.statistic {
+  box-shadow: 0px 0px 5px 5px rgba(230, 109, 109, 0.5);
 }
